@@ -1,10 +1,16 @@
 body{
-    background: rgb(206, 240, 255);
+    background: #F5F5F5;
     text-align: center;
     margin: 0;
     padding: 0;
     
 }
+
+nav{
+    padding: 5%;
+    background: #FF715B;
+}
+
 ul{
     list-style-type: none;
     margin: 0;
@@ -16,50 +22,52 @@ li{
     padding: auto;
     border: 1px;
     color: black;
+    font-style: normal;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
 }
 
 a{
     text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     
 }
 
 a:hover{
-    background: blueviolet; 
+    background: #1EA896; 
 }
 
-nav{ 
-    background: rgb(209, 170, 156);
+a:visited {
+    color: #523F38;
 }
+
+
+
 h1{
-    color: rgb(1, 109, 109);
+    color: #F5F5F5;
     font-style: normal;
     font-weight: lighter;
-    font-family: 'Bowlby One SC', cursive;
-    background: rgb(228, 228, 228);
+    font-family: 'Roboto Slab', serif;
+    font-size: 70px;
+    background: #523F38;
+    border: 1px solid transparent;
+    padding: 5%;
+    
 
 }
 
 h2{
-    color: rgb(70, 56, 3);
+    color: #F5F5F5;
     font-style: normal;
-    font-weight: lighter;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 3%;
+    background: #1EA896;
 }
 p{
     color: rgb(32, 32, 32);
+    font-family: 'Ubuntu', sans-serif;
 }
 
-section{
-    color: cornsilk;
-    font-style: normal;
-    font-weight: normal;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-/* *{
-    margin: auto;
-} */
