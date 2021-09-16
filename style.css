@@ -7,7 +7,7 @@ body{
 }
 
 nav{
-    padding: 5%;
+    padding: 2%;
     background: #FF715B;
 }
 
@@ -50,7 +50,7 @@ h1{
     font-size: 70px;
     background: #523F38;
     border: 1px solid transparent;
-    padding: 5%;
+    padding: 3%;
     
 
 }
@@ -62,7 +62,7 @@ h2{
     font-size: 20px;
     text-align: center;
     text-transform: uppercase;
-    padding: 3%;
+    padding: 2%;
     background: #1EA896;
 }
 p{
