@@ -1,7 +1,7 @@
 .container {
     display: grid;
     grid-template-columns: 0.5fr 3.8fr 0.5fr;
-    grid-template-rows: 100px 70px 3.1fr 0.5fr 80px; 
+    grid-template-rows: 100px 70px 1300px 80px; 
     grid-auto-columns: 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
@@ -89,14 +89,6 @@ h3{
     padding: 2%;
 }
 
-h4{
-    color: #4a4a4a;
-    font-style: normal;
-    font-family: 'Roboto Slab', serif;
-    text-align: left;
-    padding: 2%;
-}
-
 p{
     color: black;
     font-family: 'Open Sans', sans-serif;
@@ -153,8 +145,17 @@ p{
   
   .Headline { grid-area: Headline; }
   
-  .Image { grid-area: Image; 
-      }
+  .Image { grid-area: Image; }
+
+  figure {
+    border-radius: 50%;
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 
   img {
     max-width: 80%;
@@ -164,7 +165,6 @@ p{
     margin-right: auto;
     width: 50%;
   }
-  
   
   .Text-blog { grid-area: Text-blog; }
   
@@ -187,8 +187,10 @@ a{
 }
 
 a:hover{
-    background: #d9d0ab;  
+  background: #d9d0ab;  
 }
+
+
 
 
 iframe{
