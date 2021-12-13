@@ -1,7 +1,7 @@
 .container {
   display: grid;
   grid-template-columns: 0.5fr 3.8fr 0.5fr;
-  grid-template-rows: 0.4fr 0.1fr 2.2fr 1.4fr 0.3fr;
+  grid-template-rows: 0.4fr 0.1fr 3.1fr 0.5fr 0.3fr;
   grid-auto-columns: 1fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
@@ -36,7 +36,8 @@ body{
   background: #323031;
   font-family: 'Ubuntu', sans-serif;
   text-align: center;
-  font-size: 25px; }
+  font-size: 20px; }
+
 
 .Footer-3 { 
   margin: auto;
@@ -96,7 +97,7 @@ body{
 .Entry-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1.2fr 1.2fr 1.2fr 0.4fr;
+  grid-template-rows: 1fr 0.2fr 1fr 0.1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
